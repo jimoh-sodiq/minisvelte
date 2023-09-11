@@ -1,0 +1,15 @@
+1. Aim:  To generate an optimised javascript code from the app.svelte file
+2. Main Steps:  Parse, analyse and generate the code.
+3. Syntax: (Backus-Naur form)
+        <fragments> ::= <fragment> | <fragments> <fragment>
+        <fragment> ::= <script> | <element> | <expression> | <text>
+        <script> ::= "<script>" "<javascript>" "</script>"
+        <element> ::= "<" <tag-name> <attribut-list> ">" <fragments> "</" <tag-name> ">"
+        <attribute-list> ::= | <space> <attribute> | <attribute-list> <space> <attribute>
+        <attribute> ::= <attribute-name> "={" <javascript> "}"
+        <expression> ::= "{" <javascript> "}"
+
+4. Implement functions for parsing each of the above descriptions from the Syntax in the parser
+
+
+
