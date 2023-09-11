@@ -1,6 +1,7 @@
 # minisvelte
 
-'''js
+Transforming the svelte code below to valid optimised javascript
+
 <script>
   let counter = 0;
 
