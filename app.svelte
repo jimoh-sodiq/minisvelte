@@ -9,7 +9,6 @@
 {counter}
 <button on:click={increment}>Increment</button>
 
-
 <style>
     
 </style>

@@ -17,4 +17,3 @@ Transforming the svelte code below to valid optimised javascript
     
 </style>
 
-'''
